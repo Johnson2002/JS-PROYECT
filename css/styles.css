@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bodyPropiedades {
+  background-color: #BFB188;
+}
+
+.title {
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  display: flex;
+  background-color: #747F7F;
+}
+.title .title-h1 {
+  font-style: italic;
+  font-size: 3rem;
+  font-weight: 200;
+  padding: 1rem;
+}
+.title .menu-var {
+  list-style: none;
+  padding: 1rem;
+}
+.title .menu-var a {
+  font-size: medium;
+  font-weight: bolder;
+  font-family: "Josefin Sans", sans-serif;
+  color: #0D0D0D;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 5px;
+}
+.title .menu-var a:hover {
+  transition: text-shadow 0.3s ease;
+  text-shadow: 5px 15px 0px white;
+}
+
+.main-section {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.main-section .title-h2 {
+  text-align: center;
+  padding: 5px;
+  font-family: "Noto Sans Mono", monospace;
+  background-color: white;
+  margin: 1rem;
+  box-shadow: 10px 10px 0px black;
+}
+.main-section .options {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.main-section .options .main-section-subtitle {
+  color: white;
+  background-color: #0D0D0D;
+  padding: 1rem;
+  margin: 10px 0px 15px 0px;
+  border-radius: 10px;
+  font-family: "Noto Sans Mono", monospace;
+  box-shadow: 5px 5px 0px white;
+}
+
+.main-section-propiedades {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin: 20px;
+  object-fit: contain;
+  width: 50%;
+  height: 50vh;
+  border: 5px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 10px white;
+}
+
+img:hover {
+  transition: transform 1s ease;
+  transform: scale(1.1);
+}
+
+.main-section-2 {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.main-section-2 .options {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.main-section-2 .options .main-section-subtitle-2 {
+  color: white;
+  background-color: #0D0D0D;
+  padding: 1rem;
+  margin: 10px 0px 15px 0px;
+  border-radius: 10px;
+  font-family: "Noto Sans Mono", monospace;
+  box-shadow: 5px 5px 0px white;
+}
+
+.main-section-propiedades-2 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section-subtitle-2 {
+  color: white;
+  background-color: #0D0D0D;
+  padding: 1rem;
+  margin: 10px 0px 15px 0px;
+  border-radius: 10px;
+  font-family: "Noto Sans Mono", monospace;
+  box-shadow: 5px 5px 0px white;
+}
+
+img {
+  margin: 20px;
+  object-fit: contain;
+  width: 70%;
+  height: 50%;
+  border: 5px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 10px white;
+}
+
+img:hover {
+  transition: transform 1s ease;
+  transform: scale(1.1);
+}
+
+.main-footer {
+  background-color: #0D0D0D;
+  margin-top: 15px;
+}
+.main-footer .list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+  padding: 0px;
+  height: 100px;
+}
+.main-footer .list a {
+  background-color: white;
+  padding: 5px;
+  color: #0D0D0D;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  border-radius: 5px;
+}
+.main-footer p {
+  font-family: "Noto Sans Mono", monospace;
+  text-align: center;
+  color: white;
+}
+.main-footer .social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  gap: 10px;
+  padding: 10px;
+}
+.main-footer .social-media i {
+  color: white;
+  font-size: 1.5rem;
+  background-color: #267365;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#boton1 {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #0D0D0D;
+  color: white;
+  font-style: italic;
+}
+
+#boton1:hover {
+  transition: all 0.5s ease;
+  scale: 1.1;
+}
+
+#boton2 {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #0D0D0D;
+  color: white;
+  font-style: italic;
+}
+
+#boton2:hover {
+  transition: all 0.5s ease;
+  scale: 1.1;
+}
+
+.botonDecompra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.botonDecompra #comprar1 {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-family: "Noto Sans Mono", monospace;
+}
+.botonDecompra #comprar1:hover {
+  background-color: #267365;
+  scale: 1.3;
+  transition: all 0.5s ease;
+}
+
+.botonDecompra2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.botonDecompra2 #comprar2 {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-family: "Noto Sans Mono", monospace;
+}
+.botonDecompra2 #comprar2:hover {
+  background-color: #267365;
+  scale: 1.3;
+  transition: all 0.5s ease;
+}
+
+@media all and (min-width: 1080px) {
+  .main-section-propiedades {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .main-section-propiedades-2 {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  img {
+    width: 50vh;
+    height: 100%;
+  }
+}
+@media all and (min-width: 1200px) {
+  .main-section-propiedades {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .main-section-propiedades-2 {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  img {
+    width: 50vh;
+    height: 100%;
+  }
+}
+@media all and (min-width: 1245px) {
+  .main-section-propiedades {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .main-section-propiedades-2 {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  img {
+    width: 50vh;
+    height: 100%;
+  }
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
