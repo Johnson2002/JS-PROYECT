@@ -1,0 +1,8 @@
+[
+    {"departamento1": "Duplex" , "PrecioUSD": 52000, "zona": "zona - oeste - castelar", "id": 1},
+    {"departamento2": "Departamento" , "PrecioUSD": 170000, "zona": "zona - oeste - castelar", "id": 2},
+    {"departamento3": "Casa/jardin" , "PrecioUSD": 100000, "zona": "zona - oeste - castelar", "id": 3, "proximamente": "proximamente"},
+    {"departamento4": "Edificio" , "PrecioUSD": 200000, "zona": "zona - oeste - castelar", "id": 4, "proximamente": "proximamente"},
+    {"departamento5": "Oficinas" , "PrecioUSD": 150000, "zona": "zona - oeste - castelar", "id": 5, "proximamente": "proximamente"},
+    {"departamento6": "Terreno" , "PrecioUSD": 80000, "zona": "zona - oeste - castelar", "id": 6, "proximamente": "proximamente"}
+]

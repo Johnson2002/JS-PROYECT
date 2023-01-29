@@ -7,6 +7,7 @@ const boton2 = document.getElementById("boton2");
 const boton3 = document.getElementById("comprar1");
 const boton4 = document.getElementById("comprar2");
 
+const repetirAccion = () => {
     boton1.addEventListener("click", () => {
         alert(`tipo: duplex
                 Direccion: Jujuy 1040, Morón. Pcia de Bs.As
@@ -30,37 +31,21 @@ const boton4 = document.getElementById("comprar2");
         `);
     });
 
-//funciones
+    //Swet alert
+    boton3.addEventListener("click", () => {
+    swal("Gracias por tu compra", "Acabas de comprar una casa!", "success");
 
-const propiedad1 =() => {
-    duplex();
+    });
+
+    boton4.addEventListener("click", () => {
+    swal("Gracias por tu compra", "Acabas de comprar una casa!", "success");
+    
+    });
+
 }
+repetirAccion();
 
-const propiedad2 = () => {
-    departamento();
-}
 
-//condicionales
-for(let i=0; i>1; i++){
-
-        let elegir = alert("Elige entre Opcion 1 o Opcion 2 para saber por si te interesa uno de estos departamentos!");
-
-        switch (elegir){
-            case "Opcion 1":
-                propiedad1();
-                break;
-            case "opcion 1":
-                propiedad1();
-                break;
-            case "Opcion 2":
-                propiedad2();
-                break;
-            case "opcion 2":
-                propiedad2();
-                break
-
-        }
-}
 //objetos
 const duplex = [{
     departamento: "Duplex",
@@ -96,14 +81,7 @@ duplex.forEach((duplex) => {
 localStorage.setItem("duplex", JSON.stringify(duplex));
 localStorage.setItem("departamento", JSON.stringify(departamento));
 
-//Swet alert
-boton3.addEventListener("click", () => {
-    swal("Gracias por tu compra", "Acabas de comprar una casa!", "success");
-});
-
-boton4.addEventListener("click", () => {
-    swal("Gracias por tu compra", "Acabas de comprar una casa!", "success");
-});
-
-let mensaje = "hola mundo!";
-console.log(mensaje);
+//fetch
+fetch("data.json")
+    .then((res) => res.json())
+    .then((data) => console.log(data))
